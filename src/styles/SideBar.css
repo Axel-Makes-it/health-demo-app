@@ -4,9 +4,12 @@
   background-color: #053265;
   display: flex;
   justify-content: center;
-  padding: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.sideBar__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sideBar__menu ul li {
@@ -17,6 +20,10 @@
   gap: 34px;
 }
 
+.sideBar__logo-wrapper {
+  margin-top: 12px;
+}
+
 .sideBar__logo-wrapper img {
   border-radius: 50px;
   width: 40px;
@@ -24,6 +31,13 @@
   object-fit: cover;
   background-color: white;
   padding: 5px;
+}
+
+.sideBar__profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
 .sideBar__profile-wrapper img {
