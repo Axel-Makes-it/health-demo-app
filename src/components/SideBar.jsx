@@ -22,13 +22,29 @@ function SideBar() {
           </div>
           <li>
             <img src={USER} alt="USERS" width={30} />
+          </li>
+          <li>
             <img src={TSHIRT} alt="TSHIRT" width={30} />
+          </li>
+          <li>
             <img src={NEWSPAPER} alt="NEWSPAPER" width={30} />
+          </li>
+          <li>
             <img src={CHECK} alt="CHECK" width={33.569} />
+          </li>
+          <li>
             <img src={UP} alt="UP" width={32.789} />
+          </li>
+          <li>
             <img src={DOWN} alt="DOWN" width={32.789} />
+          </li>
+          <li>
             <img src={BOOK} alt="BOOK" width={32.789} />
+          </li>
+          <li>
             <img src={SOUP} alt="SOUP" width={32.789} />
+          </li>
+          <li>
             <img src={userCircle} alt="USER-CIRCLE" width={32.789} />
           </li>
         </ul>
