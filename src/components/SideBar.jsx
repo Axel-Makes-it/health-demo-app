@@ -10,6 +10,7 @@ import BOOK from "../images/book-user.svg";
 import SOUP from "../images/soup.svg";
 import userCircle from "../images/user-circle.svg";
 import LOGO from "../images/logo.png";
+import PROFILE from "../images/profile.jpg";
 
 function SideBar() {
   return (
@@ -32,6 +33,10 @@ function SideBar() {
             <img src={userCircle} alt="USER-CIRCLE" width={32.789} />
           </li>
         </ul>
+
+        <div className="sideBar__profile-wrapper">
+          <img src={PROFILE} alt="PROFILE" />
+        </div>
       </div>
     </div>
   );

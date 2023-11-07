@@ -2,6 +2,11 @@
   height: 100vh;
   width: 62px;
   background-color: #053265;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sideBar__menu ul li {
@@ -9,13 +14,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 34px;
 }
 
 .sideBar__logo-wrapper img {
   border-radius: 50px;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   background-color: white;
   padding: 5px;
+}
+
+.sideBar__profile-wrapper img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  background-color: white;
+  padding: 1px;
 }
