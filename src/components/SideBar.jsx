@@ -16,11 +16,10 @@ function SideBar() {
   return (
     <div className="sideBar__container">
       <div className="sideBar__menu">
-        <div className="sideBar__logo-wrapper">
-          <img src={LOGO} alt="LOGO" />
-        </div>
-
         <ul>
+          <div className="sideBar__logo-wrapper">
+            <img src={LOGO} alt="LOGO" />
+          </div>
           <li>
             <img src={USER} alt="USERS" width={30} />
             <img src={TSHIRT} alt="TSHIRT" width={30} />
