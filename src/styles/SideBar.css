@@ -1,0 +1,21 @@
+.sideBar__container {
+  height: 100vh;
+  width: 62px;
+  background-color: #053265;
+}
+
+.sideBar__menu ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideBar__logo-wrapper img {
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  background-color: white;
+  padding: 5px;
+}
