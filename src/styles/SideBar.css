@@ -21,12 +21,23 @@
   width: 100%;
   gap: 34px;
   list-style-type: none;
-  cursor: pointer;
+}
+
+.sideBar__menu ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .sideBar__menu ul li img {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 14px;
+  border-right: 2px solid transparent;
+  transition: 0.13s;
+  cursor: pointer;
+}
+
+.sideBar__menu ul li img:hover {
+  border-right: 4px solid rgb(255, 255, 255);
 }
 
 .sideBar__logo-wrapper {
