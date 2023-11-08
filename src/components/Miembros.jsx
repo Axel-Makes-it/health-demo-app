@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Miembros.css";
 import searchIcon from "../images/magnify.svg";
+import ACCIONES from "../images/MoreOutlined.png";
 
 const miembros = [
   {
@@ -100,7 +101,7 @@ const miembros = [
     centro: "Center A",
     fechaNacimiento: "1996/05/19",
     fechaMembresia: "2023/12/12",
-    status: "Activo",
+    status: "Desactivado",
   },
 ];
 
@@ -124,28 +125,28 @@ function Miembros() {
         <div className="miembros__table">
           <ul>
             <li>
-              <span>Member ID</span>
+              <span id="head">Member ID</span>
             </li>
             <li>
-              <span>Card ID</span>
+              <span id="head">Card ID</span>
             </li>
             <li>
-              <span>Nombre y apellido</span>
+              <span id="head">Nombre y apellido</span>
             </li>
             <li>
-              <span>Centro</span>
+              <span id="head">Centro</span>
             </li>
             <li>
-              <span>Fecha de nacimiento</span>
+              <span id="head">Fecha de nacimiento</span>
             </li>
             <li>
-              <span>Fecha de membresia</span>
+              <span id="head">Fecha de membresia</span>
             </li>
             <li>
-              <span>Status</span>
+              <span id="head">Status</span>
             </li>
             <li>
-              <span>Acciones</span>
+              <span id="head">Acciones</span>
             </li>
           </ul>
 
@@ -170,6 +171,7 @@ function Miembros() {
                 <li>
                   <span>{member.fechaMembresia}</span>
                 </li>
+
                 <li>
                   <span
                     className={
@@ -187,6 +189,9 @@ function Miembros() {
                     ></span>
                     {member.status}
                   </span>
+                </li>
+                <li>
+                  <img src={ACCIONES} alt="ACCIONES" />
                 </li>
               </ul>
             ))}
