@@ -18,6 +18,18 @@ function Miembros() {
           <button>AGREGAR MIEMBROS</button>
         </div>
       </div>
+
+      <div className="miembros__table">
+        <ul>
+          <li>Member ID</li>
+          <li>Card ID</li>
+          <li>Nombre y apellido</li>
+          <li>Fecha de nacimiento</li>
+          <li>Fecha de membresia</li>
+          <li>Status</li>
+          <li>Acciones</li>
+        </ul>
+      </div>
     </section>
   );
 }
