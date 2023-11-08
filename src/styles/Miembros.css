@@ -149,6 +149,14 @@
   align-items: center;
 }
 
+.miembros__table.lista ul {
+  background-color: white;
+}
+
+.miembros__table.lista ul li {
+  border-left: 0.5px solid var(--colorSplit, rgba(255, 255, 255, 0.06));
+}
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");

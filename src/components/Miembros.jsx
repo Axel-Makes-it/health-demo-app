@@ -18,34 +18,64 @@ function Miembros() {
           <button>AGREGAR MIEMBROS</button>
         </div>
       </div>
+      <div className="miembros__lista">
+        <div className="miembros__table">
+          <ul>
+            <li>
+              <span>Member ID</span>
+            </li>
+            <li>
+              <span>Card ID</span>
+            </li>
+            <li>
+              <span>Nombre y apellido</span>
+            </li>
+            <li>
+              <span>Centro</span>
+            </li>
+            <li>
+              <span>Fecha de nacimiento</span>
+            </li>
+            <li>
+              <span>Fecha de membresia</span>
+            </li>
+            <li>
+              <span>Status</span>
+            </li>
+            <li>
+              <span>Acciones</span>
+            </li>
+          </ul>
+        </div>
 
-      <div className="miembros__table">
-        <ul>
-          <li>
-            <span>Member ID</span>
-          </li>
-          <li>
-            <span>Card ID</span>
-          </li>
-          <li>
-            <span>Nombre y apellido</span>
-          </li>
-          <li>
-            <span>Centro</span>
-          </li>
-          <li>
-            <span>Fecha de nacimiento</span>
-          </li>
-          <li>
-            <span>Fecha de membresia</span>
-          </li>
-          <li>
-            <span>Status</span>
-          </li>
-          <li>
-            <span>Acciones</span>
-          </li>
-        </ul>
+        <div id="lista" className="miembros__table lista">
+          <ul>
+            <li>
+              <span>Member ID</span>
+            </li>
+            <li>
+              <span>Card ID</span>
+            </li>
+            <li>
+              <span>Nombre y apellido</span>
+            </li>
+            <li>
+              <span>Centro</span>
+            </li>
+            <li>
+              <span>Fecha de nacimiento</span>
+            </li>
+            <li>
+              <span>Fecha de membresia</span>
+            </li>
+            <li>
+              <span>Status</span>
+            </li>
+            <li>
+              <span>Acciones</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
