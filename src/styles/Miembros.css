@@ -1,13 +1,15 @@
 .miembros__container {
   background-color: rgb(255, 255, 255);
   min-height: 100%;
-  width: 100%;
+  min-width: 1800px;
   margin: 17px 16px;
   border-radius: 4px;
   padding: 16px;
 }
 .miembros__form {
-  padding-top: 16px;
+  padding: 16px 16px 16px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .miembros__container h2 {
@@ -29,6 +31,26 @@
   align-items: center;
   gap: 4px;
   align-self: stretch;
+}
+.miembros__agregar-btn button {
+  display: inline-flex;
+  height: 40px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #1547a0;
+  color: var(--shades-white, #fff);
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.525px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
 
 .miembros__container form input {

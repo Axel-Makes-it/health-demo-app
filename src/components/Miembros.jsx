@@ -14,6 +14,9 @@ function Miembros() {
             placeholder="Buscar por nombre y apellido o CardID"
           />
         </form>
+        <div className="miembros__agregar-btn">
+          <button>AGREGAR MIEMBROS</button>
+        </div>
       </div>
     </section>
   );
