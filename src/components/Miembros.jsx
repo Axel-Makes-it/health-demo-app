@@ -21,13 +21,30 @@ function Miembros() {
 
       <div className="miembros__table">
         <ul>
-          <li>Member ID</li>
-          <li>Card ID</li>
-          <li>Nombre y apellido</li>
-          <li>Fecha de nacimiento</li>
-          <li>Fecha de membresia</li>
-          <li>Status</li>
-          <li>Acciones</li>
+          <li>
+            <span>Member ID</span>
+          </li>
+          <li>
+            <span>Card ID</span>
+          </li>
+          <li>
+            <span>Nombre y apellido</span>
+          </li>
+          <li>
+            <span>Centro</span>
+          </li>
+          <li>
+            <span>Fecha de nacimiento</span>
+          </li>
+          <li>
+            <span>Fecha de membresia</span>
+          </li>
+          <li>
+            <span>Status</span>
+          </li>
+          <li>
+            <span>Acciones</span>
+          </li>
         </ul>
       </div>
     </section>
