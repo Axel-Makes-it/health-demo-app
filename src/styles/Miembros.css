@@ -157,6 +157,10 @@
   border-left: 0.5px solid var(--colorSplit, rgba(255, 255, 255, 0.06));
 }
 
+.miembros__table.lista {
+  overflow-x: hidden; /* or overflow-x: auto; */
+}
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");

@@ -148,34 +148,34 @@ function Miembros() {
               <span>Acciones</span>
             </li>
           </ul>
-        </div>
 
-        <div id="lista" className="miembros__table lista">
-          {miembros.map((member) => (
-            <ul key={member.memberID}>
-              <li>
-                <span>{member.memberID}</span>
-              </li>
-              <li>
-                <span>{member.cardID}</span>
-              </li>
-              <li>
-                <span>{member.nombreApellido}</span>
-              </li>
-              <li>
-                <span>{member.centro}</span>
-              </li>
-              <li>
-                <span>{member.fechaNacimiento}</span>
-              </li>
-              <li>
-                <span>{member.fechaMembresia}</span>
-              </li>
-              <li>
-                <span>{member.status}</span>
-              </li>
-            </ul>
-          ))}
+          <div id="lista" className="miembros__table lista">
+            {miembros.map((member) => (
+              <ul key={member.memberID}>
+                <li>
+                  <span>{member.memberID}</span>
+                </li>
+                <li>
+                  <span>{member.cardID}</span>
+                </li>
+                <li>
+                  <span>{member.nombreApellido}</span>
+                </li>
+                <li>
+                  <span>{member.centro}</span>
+                </li>
+                <li>
+                  <span>{member.fechaNacimiento}</span>
+                </li>
+                <li>
+                  <span>{member.fechaMembresia}</span>
+                </li>
+                <li>
+                  <span>{member.status}</span>
+                </li>
+              </ul>
+            ))}
+          </div>
         </div>
       </div>
     </section>
