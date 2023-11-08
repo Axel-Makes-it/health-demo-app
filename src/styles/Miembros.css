@@ -4,4 +4,19 @@
   width: 100%;
   margin: 17px 16px;
   border-radius: 4px;
+  padding: 16px;
+}
+
+.miembros__container h2 {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.05px;
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
 }
