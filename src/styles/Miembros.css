@@ -72,6 +72,11 @@
   max-width: 350px;
 }
 
+.miembros__table {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .miembros__table ul {
   list-style-type: none;
   display: flex;
@@ -143,10 +148,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-/* Add word-spacing to the span elements when they wrap */
-.miembros__table ul li span {
-  white-space: nowrap; /* Prevents normal word wrapping */
-}
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
