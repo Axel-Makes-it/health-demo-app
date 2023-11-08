@@ -172,13 +172,19 @@ function Miembros() {
                 </li>
                 <li>
                   <span
-                    id="status"
                     className={
                       member.status === "Activo"
                         ? "status-activo"
                         : "status-desactivado"
                     }
                   >
+                    <span
+                      className={
+                        member.status === "Activo"
+                          ? "status-circle status-circle-green"
+                          : "status-circle status-circle-red"
+                      }
+                    ></span>
                     {member.status}
                   </span>
                 </li>
