@@ -6,6 +6,9 @@
   border-radius: 4px;
   padding: 16px;
 }
+.miembros__form {
+  padding-top: 16px;
+}
 
 .miembros__container h2 {
   font-family: "Montserrat-Medium";
@@ -16,7 +19,36 @@
   letter-spacing: 0.05px;
 }
 
+.miembros__container form {
+  display: flex;
+  width: 350px;
+  border-radius: 4px;
+  border: 1px solid var(--grey-grey-lighten-1, #bdbdbd);
+  height: 40px;
+  padding: 4px 12px;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.miembros__container form input {
+  color: var(--grey-grey-darken-1, #757575);
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
