@@ -161,6 +161,22 @@
   overflow-x: hidden; /* or overflow-x: auto; */
 }
 
+#status {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 7px;
+}
+.status-activo {
+  background-color: #5ebdac2f; /* Green background for active status */
+  border-radius: 4px;
+}
+
+.status-desactivado {
+  background-color: #ffb0b0; /* Red background for deactivated status */
+  border-radius: 4px;
+}
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");

@@ -171,7 +171,16 @@ function Miembros() {
                   <span>{member.fechaMembresia}</span>
                 </li>
                 <li>
-                  <span>{member.status}</span>
+                  <span
+                    id="status"
+                    className={
+                      member.status === "Activo"
+                        ? "status-activo"
+                        : "status-desactivado"
+                    }
+                  >
+                    {member.status}
+                  </span>
                 </li>
               </ul>
             ))}
